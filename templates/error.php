@@ -1,0 +1,1 @@
+<section class="container empty-state error-page"><div class="eyebrow">Кажется, мы разминулись</div><span>↗</span><h1><?= e($title ?? 'Страница не найдена') ?></h1><p><?= e($message ?? 'Такой страницы здесь нет. Но в городе точно есть что-то интересное.') ?></p><a class="button button-dark" href="<?= e(url('events')) ?>">Вернуться в афишу <span>→</span></a></section>
