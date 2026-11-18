@@ -1,0 +1,10 @@
+/config.local.php
+/.env
+/.runtime/
+/runtime/
+*.log
+*.pid
+/.idea/
+/.vscode/
+/Thumbs.db
+/.DS_Store

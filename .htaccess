@@ -1,0 +1,5 @@
+Options -Indexes
+RedirectMatch 404 /\.
+<FilesMatch "^(config\.local\.php|\.env.*|.*\.sql|.*\.log|.*\.md|.*\.ps1)$">
+    Require all denied
+</FilesMatch>
